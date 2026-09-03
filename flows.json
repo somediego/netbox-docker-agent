@@ -8852,7 +8852,7 @@
                 "t": "set",
                 "p": "post",
                 "pt": "msg",
-                "to": "\"'http://localhost/containers/\" & msg.req.params.id & \"/logs?stdout=true&stderr=true&timestamps=true'\" & \" -H 'content-type: application/json'\"",
+                "to": "\"'http://localhost/containers/\" & msg.req.params.id & \"/logs?stdout=true&stderr=true&timestamps=true&tail=50'\" & \" -H 'content-type: application/json'\"",
                 "tot": "jsonata"
             }
         ],
